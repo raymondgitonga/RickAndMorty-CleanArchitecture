@@ -12,7 +12,7 @@ Mockito
 ### Demo
 
 
-!(demo/tosh.gif style=centerme)       
+!(demo/tosh.gif)       
 
 
 ### Features
