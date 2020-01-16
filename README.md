@@ -21,7 +21,7 @@ Mockito
 
 <h2 align="center">
 <br>
-  <img src="demo/tosh.gif" width="100" alt="Kotlin Rick and Morty">
+  <img src="demo/tosh.gif" width="400" alt="Kotlin Rick and Morty">
 <br>
 <br>
 </h2>
