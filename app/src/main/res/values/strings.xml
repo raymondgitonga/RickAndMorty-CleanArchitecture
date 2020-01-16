@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RickAndMorty</string>
+    <string name="error_occured">An error occured while loading</string>
+    <string name="rick_and_morty">Rick And Morty</string>
+</resources>
