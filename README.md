@@ -19,7 +19,7 @@ Mockito
 
 ### Demo
 
-  <img src="demo/tosh.gif" width="600" height="400"  alt="Kotlin Rick and Morty">
+  <img src="demo/tosh.gif" width="400" height="600"  alt="Kotlin Rick and Morty">
 
 
 
