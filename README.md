@@ -1,4 +1,12 @@
-## RICK AND MORTY
+<h1 align="center">
+<br>
+  <img src="demo/ricklogo.png" width="200" alt="Kotlin Rick and Morty">
+<br>
+<br>
+Rick and Morty app built with Kotlin
+</h1>
+
+
 #### Created by Raymond Gitonga
 
 ### Description
@@ -11,8 +19,13 @@ Mockito
 
 ### Demo
 
+<h2 align="center">
+<br>
+  <img src="demo/tosh.gif" width="100" alt="Kotlin Rick and Morty">
+<br>
+<br>
+</h2>
 
-!(demo/tosh.gif)       
 
 
 ### Features
