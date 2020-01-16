@@ -13,7 +13,7 @@ Mockito
 
   Demo                         |  
 :-----------------------------:|
- ![Day](demos/tosh.gif)        | 
+ ![Day](demo/tosh.gif)        | 
 
 
 ### Features
