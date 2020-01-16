@@ -47,7 +47,6 @@ class CharacterViewModel : ViewModel() {
                     {
                         charactersLoadError.value = true
                         loading.value = false
-                        Log.e("Nikubayaaaaa", "${it.localizedMessage}")
                     }
 
                 ))
