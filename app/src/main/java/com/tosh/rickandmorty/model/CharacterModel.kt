@@ -12,5 +12,3 @@ data class CharResult(
     val species: String,
     val status: String
 )
-
-

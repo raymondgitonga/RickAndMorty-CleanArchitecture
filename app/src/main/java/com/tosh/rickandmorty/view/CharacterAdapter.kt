@@ -31,11 +31,15 @@ class CharacterAdapter(var characters: ArrayList<CharResult>): RecyclerView.Adap
     class CharacterViewHolder(view: View): RecyclerView.ViewHolder(view){
 
         private val characterImg = view.characterImg
-//        private val characterName = view.characterName
+        private val characterName = view.name
+        private val characterStatus = view.status
+        private val characterSpecies = view.species
         private val progressDrawable = getProgressDrawable(view.context)
 
         fun bind(character:CharResult){
-//            characterName.text = character.name
+            characterName.text = character.name
+            characterStatus.text = character.status
+            characterSpecies.text = character.species
             characterImg.loadImage(character.image, progressDrawable )
         }
     }

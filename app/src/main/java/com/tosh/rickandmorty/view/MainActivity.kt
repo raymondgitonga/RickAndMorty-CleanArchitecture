@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
-import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.GridLayoutManager
 import com.tosh.rickandmorty.R
 import com.tosh.rickandmorty.viewmodel.CharacterViewModel
 import kotlinx.android.synthetic.main.activity_main.*
@@ -19,12 +19,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val gridLayoutManager = GridLayoutManager(this@MainActivity, 2)
+        charactersList.layoutManager = gridLayoutManager
+
+
         viewModel = ViewModelProviders.of(this).get(CharacterViewModel::class.java)
         viewModel.refresh()
 
         charactersList.apply {
-            layoutManager = LinearLayoutManager(context)
             adapter = characterAdapter
+            charactersList.adapter = adapter
         }
 
         swipeRefresh.setOnRefreshListener {
