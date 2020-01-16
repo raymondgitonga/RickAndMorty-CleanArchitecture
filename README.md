@@ -11,9 +11,9 @@ Mockito
 
 ### Demo
 
-                                | Demo                         |  
-                                |:----------------------------:|
-                                | ![Day](demo/tosh.gif)        | 
+  Demo                         |  
+:-----------------------------:|
+ ![Day](demo/tosh.gif)         | 
 
 
 ### Features
