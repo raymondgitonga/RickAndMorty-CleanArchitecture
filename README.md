@@ -1,10 +1,10 @@
-<h1 align="center">
+<h2 align="center">
 <br>
   <img src="demo/ricklogo.png" width="200" alt="Kotlin Rick and Morty">
 <br>
 <br>
 Rick and Morty app built with Kotlin
-</h1>
+</h2>
 
 
 #### Created by Raymond Gitonga
